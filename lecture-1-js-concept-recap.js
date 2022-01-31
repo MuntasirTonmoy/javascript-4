@@ -2,7 +2,7 @@ var favouriteBook = 'Pother pachali';
 var bookList = ['positioning', 'start with why', 'shoe dog'];
 //! array index start with 0
 // we can know array index by by using variableName.indexof()
-console.log('the index of shoe dog is ' + bookList.indexOf('shoe dog'));
+console.log('the index of shoe dog is ', bookList.indexOf('shoe dog')); // showing string + variable value by using , 
 bookList[1] = 'pother pachali'; // we can change the value of the array variable
 bookList.push('sky net'); // add in the end of the array
 bookList.pop(); // remove the last item of the array.
